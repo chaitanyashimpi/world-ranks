@@ -8,8 +8,7 @@ import Head from 'next/head';
 import Router from 'next/router';
 import NProgress from 'nprogress';
 
-import GitHubIcon from '@material-ui/icons/GitHub';
-import Link from 'next/link';
+
 
 Router.onRouteChangeStart = (url) => {
   NProgress.start();
@@ -55,11 +54,7 @@ export default function Home({ countries }) {
 
       <CountriesTable countries={filteredCountries} />
 
-      <Link href='https://github.com/chaitanyashimpi/world-ranks'>
-        <div className={styles.github}>
-          <GitHubIcon />
-        </div>
-      </Link>
+      
     </Layout>
   );
 }

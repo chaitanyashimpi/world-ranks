@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from './Layout.module.css';
+import GitHubIcon from '@material-ui/icons/GitHub';
 import Link from 'next/link';
 import { Brightness6Rounded } from '@material-ui/icons';
 import { useEffect, useState } from 'react';
@@ -70,14 +71,25 @@ const Layout = ({ children, title = 'World Ranks' }) => {
             <rect y='4' width='7.33333' height='4.4' rx='2' fill='#21B6B7' />
           </svg>
         </Link>
-
+        <Link
+          href='https://github.com/chaitanyashimpi/world-ranks'
+          target='_blank'
+        >
+          <div className={styles.github}>
+            <GitHubIcon />
+          </div>
+        </Link>
         <button className={styles.themeSwitcher} onClick={switchTheme}>
           <Brightness6Rounded />
         </button>
       </header>
       <main className={styles.main}>{children}</main>
 
-      <footer className={styles.footer}>Chaitanya Shimpi @ Cratonik</footer>
+      <footer className={styles.footer}>
+        <Link href='https://chaitanyashimpi.netlify.app/' target='_blank'>
+          Chaitanya Shimpi @ Cratonik
+        </Link>
+      </footer>
     </div>
   );
 };

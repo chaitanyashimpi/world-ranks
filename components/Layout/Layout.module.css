@@ -43,3 +43,36 @@
 .cursor {
   cursor: pointer;
 }
+
+.github {
+  padding: 30px;
+  position: fixed;
+  bottom: -25px;
+  right: -25px;
+  background: var(--scrollbar);
+  border-radius: 50%;
+  cursor: pointer;
+  color: var(bacground-color-dark);
+}
+
+.github svg {
+  font-size: 30px;
+}
+@media screen and (max-width: 1229px) {
+  .github {
+    padding: 0;
+    position: absolute;
+    bottom: inherit;
+    right: inherit;
+    top: 30px;
+    left: 30px;
+    background: transparent;
+  }
+  .github svg {
+    font-size: 1.4rem;
+  }
+
+  .themeSwitcher{
+    position: absolute;
+  }
+}
