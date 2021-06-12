@@ -75,9 +75,9 @@ const Layout = ({ children, title = 'World Ranks' }) => {
           href='https://github.com/chaitanyashimpi/world-ranks'
           target='_blank'
         >
-          <div className={styles.github}>
+          <a className={styles.github} target='_blank'>
             <GitHubIcon />
-          </div>
+          </a>
         </Link>
         <button className={styles.themeSwitcher} onClick={switchTheme}>
           <Brightness6Rounded />
@@ -87,7 +87,7 @@ const Layout = ({ children, title = 'World Ranks' }) => {
 
       <footer className={styles.footer}>
         <Link href='https://chaitanyashimpi.netlify.app/' target='_blank'>
-          Chaitanya Shimpi @ Cratonik
+          <a target='_blank'>Chaitanya Shimpi @ Cratonik</a>
         </Link>
       </footer>
     </div>
