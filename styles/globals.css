@@ -12,6 +12,9 @@
 
   --font-family: 'Poppins', sans-serif;
   --box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+
+  --scrollbar: rgb(209, 201, 201);
+  --thumb: rgb(158, 152, 152);
 }
 
 [data-theme='dark'] {
@@ -23,6 +26,18 @@
   --bacground-color: #252329;
   --bacground-color-dark: #3c393f;
   --bacground-color-light: #120f13;
+
+  --scrollbar: #333;
+  --thumb: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: var(--scrollbar);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--thumb);
 }
 
 html,
@@ -37,6 +52,7 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 
 * {

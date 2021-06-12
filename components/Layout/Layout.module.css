@@ -26,6 +26,7 @@
   border: none;
   background: transparent;
   padding: 0;
+  cursor: pointer;
 
   color: var(--text-secondary);
   margin-left: 4px;
@@ -33,4 +34,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
+
+.cursor {
+  cursor: pointer;
 }

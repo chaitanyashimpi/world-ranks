@@ -4,6 +4,17 @@ import SearchInput from '../components/SearchInput/SearchInput';
 import CountriesTable from '../components/CountriesTable/CountriesTable';
 import { useState } from 'react';
 
+import Head from 'next/head';
+import Router from 'next/router';
+import NProgress from 'nprogress';
+
+Router.onRouteChangeStart = (url) => {
+  NProgress.start();
+};
+NProgress.configure({ showSpinner: false });
+
+Router.onRouteChangeComplete = () => NProgress.done();
+
 export default function Home({ countries }) {
   const [keyword, setKeyword] = useState('');
 
@@ -20,6 +31,15 @@ export default function Home({ countries }) {
   };
   return (
     <Layout>
+      <Head>
+        <link
+          rel='stylesheet'
+          href='https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css'
+          integrity='sha512-42kB9yDlYiCEfx2xVwq0q7hT4uf26FUgSIZBK8uiaEnTdShXjwr8Ip1V4xGJMg3mHkUt9nNuTDxunHF0/EgxLQ=='
+          crossorigin='anonymous'
+          referrerpolicy='no-referrer'
+        />
+      </Head>
       <div className={styles.inputContainer}>
         <div className={styles.counts}>Found {countries.length} countries</div>
         <div className={styles.input}>

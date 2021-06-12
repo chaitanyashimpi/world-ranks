@@ -45,6 +45,8 @@
   border-radius: 8px;
   margin-bottom: 16px;
 
+  cursor: pointer;
+
   box-shadow: var(--box-shadow);
   font-weight: 500;
 
