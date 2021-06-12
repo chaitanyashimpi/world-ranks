@@ -1,4 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# World Ranks with NEXT Js
+
+![Banner](https://github.com/chaitanyashimpi/world-ranks/blob/main/Globe%20Info.png)
+
+
+ What will be covered in this Repo:
+==========================
+
+```In this project, we are going to create a website in which we can rank the country with 3 different parameters and we can also check few information about the country.```
 
 ## Getting Started
 
@@ -18,17 +26,27 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+LICENSE:
+==========================
+Copyright (c) 2021 Chaitanya Shimpi
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This projects are licensed under the MIT License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+ <p align="center">
+  <b><i>Let's connect! Find me on the web.</i></b>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<div align="center">
+  
+[<img alt="Instagram" src="https://img.shields.io/badge/Instagram%20-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white"/>](https://instagram.com/chaitanyashimpi)
+[<img src="https://img.shields.io/badge/Github-%23000000.svg?&style=for-the-badge&logo=github&logoColor=white">](https://github.com/chaitanyashimpi)
+[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white">](http://www.linkedin.com/in/chaitanyashimpi/)
+[<img alt="Discord" src="https://img.shields.io/badge/Discord%20-%237289DA.svg?&style=for-the-badge&logo=discord&logoColor=white"/>](https://discord.gg/V3FmgSRDcY)
+[<img alt="Medium" src="https://img.shields.io/badge/Medium%20-%23000000.svg?&style=for-the-badge&logo=Medium&logoColor=white"/>](https://chaitanyashimpi.medium.com/)
+<br />
+</div>
+  
+If you have any Queries or Suggestions, feel free to reach out to me.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h3 align="center">Show some &nbsp;❤️&nbsp; by starring some of the repositories!</h3>
